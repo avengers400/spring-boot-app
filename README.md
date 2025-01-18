@@ -1,5 +1,7 @@
 # Jenkins Pipeline for Java based application using Maven, SonarQube, Argo CD, Helm and Kubernetes
-
+maven installation- https://gist.github.com/sebsto/19b99f1fa1f32cae5d00
+java installation - sudo dnf install java-17-amazon-corretto -y
+jenkins installation - https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
 ![Screenshot 2023-03-28 at 9 38 09 PM](https://user-images.githubusercontent.com/43399466/228301952-abc02ca2-9942-4a67-8293-f76647b6f9d8.png)
 
 
