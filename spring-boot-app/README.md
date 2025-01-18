@@ -1,3 +1,8 @@
+
+maven installation:- https://gist.github.com/sebsto/19b99f1fa1f32cae5d00
+jenkins installation:- https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
+java installation:- sudo dnf install java-17-amazon-corretto -y
+
 # Spring Boot based Java web application
  
 This is a simple Sprint Boot based Java application that can be built using Maven. Sprint Boot dependencies are handled using the pom.xml 
