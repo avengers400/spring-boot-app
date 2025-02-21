@@ -20,4 +20,4 @@ phases:
        - pwd
 artifacts:
   files:
-    - target/*.jar  
+    - spring-boot-app/target/*.jar  
