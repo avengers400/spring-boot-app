@@ -17,4 +17,5 @@ phases:
   post_build:
     commands:
        - echo Build Completed successfully
-       - echo $PATH
+       - pwd
+    
