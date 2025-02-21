@@ -1,0 +1,19 @@
+version: 0.2
+phases:
+  install:
+    commands:
+       - echo Installing Maven
+       - sudo wget http://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo -O /etc/yum.repos.d/epel-apache-maven.repo
+       - sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
+       - sudo yum install -y apache-maven
+       - mvn --version
+       - echo Installing Java
+       - sudo dnf install java-17-amazon-corretto -y
+  build:
+    commands:
+       - echo Build started on `date`
+       - cd spring-boot-app
+       - mvn clean install
+  post_build:
+    commands:
+       - echo Build Completed successfully
