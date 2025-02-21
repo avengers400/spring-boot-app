@@ -18,4 +18,6 @@ phases:
     commands:
        - echo Build Completed successfully
        - pwd
-    
+artifacts:
+  files:
+    - target/*.jar  
