@@ -4,4 +4,7 @@ files:
   - source: /
     destination: /home/ec2-user
 hooks:
-  ApplicationStart: scripts/startapp.sh
+  ApplicationStart: 
+  - location: scripts/startapp.sh
+    timeout: 300
+    runas: root
